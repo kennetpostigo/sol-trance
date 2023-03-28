@@ -1,0 +1,97 @@
+.card {
+  align-items: center;
+}
+
+.cardHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.walletInfo {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin-bottom: 10px;
+}
+
+.info {
+  width: 350px;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 0px 10px;
+}
+
+.infoNoScroll {
+  width: 350px;
+  font-size: 14px;
+  padding: 0px 10px;
+}
+
+.input {
+  background: none;
+  border: none;
+  width: 100%;
+  height: 60px;
+  margin: 10px 0px;
+  color: #fff;
+  background-color: #0d0b13;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.input::placeholder {
+  color: #a1a0ab;
+}
+
+.seperator {
+  height: 1px;
+  width: 100%;
+  background: #4f4765;
+  margin: 20px 0px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
+  background: linear-gradient(76.35deg, #801ae6 15.89%, #a21ae6 89.75%);
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  max-width: 200px;
+  font-size: 16px;
+}
+
+.button:hover {
+  background: linear-gradient(76.35deg, #5a11a3 15.89%, #3e0959 89.75%);
+}
+
+.loading {
+  margin-right: 10px;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+
+.error {
+  color: hsl(1, 64%, 85%);
+  background-color: hsl(1, 55%, 20%, 80%);
+  border-radius: 10px;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  width: 350px;
+}
